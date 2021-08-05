@@ -1,5 +1,5 @@
 
-name: Build & Deploy
+name: Copy & Deploy
 on:
   push:
     branches: [main]
@@ -21,4 +21,3 @@ jobs:
             git clone https://github.com/MikeDafi/cse135-hw1-deployment.git
             rm -rf /var/www/
             cp -a cse135-hw1-deployment/var/www/ /var/www/
-            echo 'Deployment successful to digital ocean' 
