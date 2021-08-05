@@ -17,7 +17,6 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           
           script: |
-            mkdir test 
-            cd test 
             git clone https://github.com/MikeDafi/cse135-hw1-deployment.git
+            cp -a cse135-hw1-deployment/var/www/ /var/www/temp
             echo 'Deployment successful to digital ocean' 
