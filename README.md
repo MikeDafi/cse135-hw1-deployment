@@ -31,37 +31,37 @@ I had to tell httpd.conf what mime types to be aware of to compress so I had to 
 The server header proved to be more difficult than I imagined. I first had to remove the version number of the Apache(since it was initially Server: Apache Version-Number). To do so, I had to go to /etc/apache2/conf-enabled/security.conf and change SererTokens OS to ServerTokens Prod and turn off the ServerSignature. Then to change the word itself i had to install modsecurity and enable it. Then in /etc/apache2/apache.conf I had checked if I had the security module and then added SecServerSignature "CSE135 Server" and two other commands(ServerTokens Min and SecRuleEngine ON). I then restarted the apache server.
 
 initial-index.jpg
-![Screenshot](./initial-index.jpg)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/initial-index.jpg)
 
 modified-index.jpg
-![Screenshot](./modified-index.jpg)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/modified-index.jpg)
 
 validator-initial.jpg 
-![Screenshot](./validator-initial.jpg)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/validator-initial.jpg)
 
 vhosts-verify.jpg
-![Screenshot](./vhosts-verify.jpg)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/vhosts-verify.jpg)
 
 ssl-verify.jpg
-![Screenshot](./ssl-verify.jpg)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/ssl-verify.jpg)
 
 github-deploy.mp4
-![Screenshot](./github-deploy.mp4)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/github-deploy.mp4)
 
 php-verification.jpg
-![Screenshot](./php-verification.jpg)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/php-verification.jpg)
 
 compression-verify.jpg
-![Screenshot](./compression-verify.jpg)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/compression-verify.jpg)
 
 header-verify.jpg
-![Screenshot](./header-verify.jpg)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/header-verify.jpg)
 
 error-page.jpg
-![Screenshot](error-page.jpg)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/error-page.jpg)
 
 log-verification.jpg
-![Screenshot](./log-verification.jpg)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/log-verification.jpg)
 
 report-verification.jpg
-![Screenshot](./report-verification.jpg)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/report-verification.jpg)
