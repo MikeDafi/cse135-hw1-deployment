@@ -58,7 +58,7 @@ header-verify.jpg
 ![Screenshot](./header-verify.jpg)
 
 error-page.jpg
-![Screenshot](./error-page.jpg)
+![Screenshot](error-page.jpg)
 
 log-verification.jpg
 ![Screenshot](./log-verification.jpg)
