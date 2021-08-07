@@ -36,7 +36,7 @@ initial-index.jpg
 modified-index.jpg
 ![Screenshot](./modified-index.jpg)
 
-validator-initial.jpg
+validator-initial.jpg 
 ![Screenshot](./validator-initial.jpg)
 
 vhosts-verify.jpg
