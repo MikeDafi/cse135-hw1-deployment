@@ -58,10 +58,10 @@ header-verify.jpg
 ![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/header-verify.JPG)
 
 error-page.jpg
-![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/error-page.jpg)
+![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/error-page.JPG)
 
 log-verification.jpg
-![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/log-verification.jpg)
+![Screenshot](./log-verification.JPG)
 
 report-verification.jpg
-![Screenshot](https://github.com/MikeDafi/cse135-hw1-deployment/blob/main/report-verification.jpg)
+![Screenshot](./report-verification.JPG)
