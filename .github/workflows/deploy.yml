@@ -18,6 +18,7 @@ jobs:
           
           script: |
             rm -rf cse135-hw1-deployment
-            git clone https://github.com/MikeDafi/cse135-hw1-deployment.git
+            git clone https://mikedafi@github.com/MikeDafi/cse135-hw1-deployment.git
+            Dafi!1974
             rm -rf /var/www/
             cp -a cse135-hw1-deployment/var/www/ /var/www/
