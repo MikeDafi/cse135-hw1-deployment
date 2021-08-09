@@ -25,7 +25,7 @@ Username: grader
 Password: Grader135
 
 ### Changes to HTML file for Compression
-I had to tell httpd.conf what mime types to be aware of to compress so I had to list them, which caused the content-encoding value in the header response to be 'gzip'. I had to install and enable mod_deflate.so in order to perform this.
+I had to tell httpd.conf what mime types to be aware of to compress so I had to list them, which caused the content-encoding value in the header response to be 'gzip'. I had to install and enable mod_deflate.so in order to perform this. The number of bytes went down from roughly 1.3 to 1.1kb(large file because css is in the html).
 
 ### Removing the Server Header
 The server header proved to be more difficult than I imagined. I first had to remove the version number of the Apache(since it was initially Server: Apache Version-Number). To do so, I had to go to /etc/apache2/conf-enabled/security.conf and change SererTokens OS to ServerTokens Prod and turn off the ServerSignature. Then to change the word itself i had to install modsecurity and enable it. Then in /etc/apache2/apache.conf I had checked if I had the security module and then added SecServerSignature "CSE135 Server" and two other commands(ServerTokens Min and SecRuleEngine ON). I then restarted the apache server.
